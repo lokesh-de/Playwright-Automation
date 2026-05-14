@@ -22,7 +22,7 @@ https://playwright.dev
 
 ---
 
-# Why Playwright is Needed
+## Why Playwright is Needed
 
 Modern web applications are highly dynamic and interactive. Traditional automation tools often struggle with:
 - Dynamic elements
@@ -42,36 +42,36 @@ Playwright solves these problems using modern automation capabilities.
 
 ---
 
-# Advantages of Playwright Compared to Other Tools
+## Advantages of Playwright Compared to Other Tools
 
-## Cross-Browser Testing
+### Cross-Browser Testing
 - **Single API for Multiple Browsers**: Run tests on Chromium, Firefox, and WebKit.
 - **Consistent Behavior**: Same automation flow across browsers.
 
-## Faster Execution
+### Faster Execution
 - **Parallel Testing**: Execute multiple tests simultaneously.
 - **Headless Execution**: Faster execution without browser UI.
 
-## Auto Waiting Feature
+### Auto Waiting Feature
 - **No Manual Waits Required**: Automatically waits for elements to load.
 - **Stable Automation**: Reduces flaky failures.
 
-## Better Debugging
+### Better Debugging
 - **Trace Viewer**: Analyze failed tests easily.
 - **Screenshots & Videos**: Capture failures automatically.
 - **Inspector Tool**: Debug tests interactively.
 
-## API Testing Support
+### API Testing Support
 - **Built-in API Testing**: No separate framework required.
 - **Authentication Handling**: Easy token and session management.
 
-## Modern Framework Compatibility
+### Modern Framework Compatibility
 - **Supports Modern Frontend Apps**: React, Angular, Vue, Next.js.
 - **Handles Dynamic UI Efficiently**: Better synchronization with SPA applications.
 
 ---
 
-# Playwright vs Selenium vs Cypress
+## Playwright vs Selenium vs Cypress
 
 | Feature | Playwright | Selenium | Cypress |
 |---|---|---|---|
@@ -86,7 +86,7 @@ Playwright solves these problems using modern automation capabilities.
 
 ---
 
-# Future Scope of Playwright
+## Future Scope of Playwright
 
 Playwright adoption is growing rapidly in the software industry.
 
@@ -109,7 +109,7 @@ Playwright adoption is growing rapidly in the software industry.
 
 ---
 
-# Prerequisites
+## Prerequisites
 
 Before installing Playwright, ensure the following are installed:
 
@@ -128,9 +128,9 @@ https://nodejs.org
 
 ---
 
-# Playwright Setup and Installation
+## Playwright Setup and Installation
 
-## Step 1: Create Project Folder
+### Step 1: Create Project Folder
 
 ```bash
 mkdir playwright-project
@@ -139,7 +139,7 @@ cd playwright-project
 
 ---
 
-## Step 2: Initialize Node Project
+### Step 2: Initialize Node Project
 
 ```bash
 npm init -y
@@ -147,7 +147,7 @@ npm init -y
 
 ---
 
-## Step 3: Install Playwright
+### Step 3: Install Playwright
 
 ```bash
 npm init playwright@latest
@@ -161,7 +161,7 @@ This command will:
 
 ---
 
-## Step 4: Install Browsers Manually (Optional)
+### Step 4: Install Browsers Manually (Optional)
 
 ```bash
 npx playwright install
@@ -175,7 +175,7 @@ npx playwright install chromium
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```plaintext
 playwright-project/
@@ -190,27 +190,27 @@ playwright-project/
 
 ---
 
-# Running Playwright Tests
+## Running Playwright Tests
 
-## Run All Tests
+### Run All Tests
 
 ```bash
 npx playwright test
 ```
 
-## Run Specific Test File
+### Run Specific Test File
 
 ```bash
 npx playwright test tests/example.spec.js
 ```
 
-## Run Tests in Headed Mode
+### Run Tests in Headed Mode
 
 ```bash
 npx playwright test --headed
 ```
 
-## Run Tests in Debug Mode
+### Run Tests in Debug Mode
 
 ```bash
 npx playwright test --debug
@@ -218,7 +218,7 @@ npx playwright test --debug
 
 ---
 
-# Sample Playwright Test
+## Sample Playwright Test
 
 ```javascript
 const { test, expect } = require('@playwright/test');
@@ -234,15 +234,15 @@ test('Homepage Test', async ({ page }) => {
 
 ---
 
-# HTML Reports
+## HTML Reports
 
-## Generate Report
+### Generate Report
 
 ```bash
 npx playwright test
 ```
 
-## Open HTML Report
+### Open HTML Report
 
 ```bash
 npx playwright show-report
@@ -250,39 +250,39 @@ npx playwright show-report
 
 ---
 
-# Useful Playwright Commands
+## Useful Playwright Commands
 
-## Install Playwright
+### Install Playwright
 
 ```bash
 npm init playwright@latest
 ```
 
-## Install Browsers
+### Install Browsers
 
 ```bash
 npx playwright install
 ```
 
-## Run Tests
+### Run Tests
 
 ```bash
 npx playwright test
 ```
 
-## Debug Tests
+### Debug Tests
 
 ```bash
 npx playwright test --debug
 ```
 
-## Open HTML Report
+### Open HTML Report
 
 ```bash
 npx playwright show-report
 ```
 
-## Generate Automation Code
+### Generate Automation Code
 
 ```bash
 npx playwright codegen
@@ -290,7 +290,7 @@ npx playwright codegen
 
 ---
 
-# CI/CD Integration
+## CI/CD Integration
 
 Playwright supports integration with:
 - GitHub Actions
@@ -306,7 +306,7 @@ Benefits:
 
 ---
 
-# Best Practices
+## Best Practices
 
 ### Use Stable Locators
 - Prefer `getByRole()` and `getByTestId()`.
@@ -330,7 +330,7 @@ Benefits:
 
 ---
 
-# Conclusion
+## Conclusion
 
 Playwright is one of the most powerful and modern automation frameworks available today.
 
@@ -345,9 +345,9 @@ Because of its growing industry adoption and advanced features, Playwright is co
 
 ---
 
-# Useful Resources
+## Useful Resources
 
-## Official Documentation
+### Official Documentation
 https://playwright.dev/docs/intro
 
 ## GitHub Repository
