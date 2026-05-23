@@ -20,7 +20,7 @@ locator.selectOption()
 
 ---
 
-# 2. Single Select Dropdown
+## 2. Single Select Dropdown
 
 HTML Example:
 
@@ -71,7 +71,7 @@ await page.locator('#country')
 
 ---
 
-# 3. Multi Select Dropdown
+## 3. Multi Select Dropdown
 
 HTML Example:
 
@@ -115,7 +115,7 @@ await page.locator('#skills')
 
 ---
 
-# 4. Deselect Dropdown Options
+## 4. Deselect Dropdown Options
 
 Playwright does not have direct `deselect()` methods.
 
@@ -150,7 +150,7 @@ test('deselect all options', async ({ page }) => {
 
 ---
 
-# 5. Random Dropdown Selection
+## 5. Random Dropdown Selection
 
 Useful for:
 - data-driven testing
@@ -187,7 +187,7 @@ test('random dropdown selection', async ({ page }) => {
 
 ---
 
-# 6. Custom Dropdown Handling
+## 6. Custom Dropdown Handling
 
 Some applications use custom dropdowns instead of `<select>`.
 
@@ -218,7 +218,7 @@ test('custom dropdown example', async ({ page }) => {
 
 ---
 
-# 7. Auto Suggest Dropdown
+## 7. Auto Suggest Dropdown
 
 Used in:
 - Google search
@@ -251,7 +251,7 @@ test('auto suggest dropdown', async ({ page }) => {
 
 ---
 
-# 8. Get All Dropdown Options
+## 8. Get All Dropdown Options
 
 Useful for validations.
 
@@ -275,7 +275,7 @@ test('get all dropdown options', async ({ page }) => {
 
 ---
 
-# 9. Verify Selected Option
+## 9. Verify Selected Option
 
 ## Example
 
@@ -301,7 +301,7 @@ console.log(values);
 
 ---
 
-# 10. Reusable Utility Functions
+## 10. Reusable Utility Functions
 
 ## Select Dropdown Option
 
@@ -346,7 +346,7 @@ export async function selectRandomOption(
 
 ---
 
-# 11. Best Practices
+## 11. Best Practices
 
 ## Prefer Value Selection
 
@@ -391,7 +391,7 @@ await expect(
 
 ---
 
-# 12. Common Errors
+## 12. Common Errors
 
 ## Error: Element is not a `<select>` element
 
@@ -422,7 +422,7 @@ await page.waitForSelector('option');
 
 ---
 
-# 13. Running Tests
+## 13. Running Tests
 
 Run all tests:
 
@@ -450,7 +450,7 @@ npx playwright test --debug
 
 ---
 
-# 14. References
+## 14. References
 
 - Playwright SelectOption  
   https://playwright.dev/docs/input#select-options
@@ -463,7 +463,7 @@ npx playwright test --debug
 
 ---
 
-# Summary
+## Summary
 
 This guide covered:
 

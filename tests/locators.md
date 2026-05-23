@@ -18,7 +18,7 @@ Recommended:
 
 ---
 
-# 2. Playwright Built-in Locators
+## 2. Playwright Built-in Locators
 
 Playwright provides powerful built-in locators that are:
 - reliable
@@ -28,7 +28,7 @@ Playwright provides powerful built-in locators that are:
 
 ---
 
-# 3. `getByRole()`
+## 3. `getByRole()`
 
 Recommended for:
 - buttons
@@ -69,7 +69,7 @@ test('getByRole example', async ({ page }) => {
 
 ---
 
-# 4. `getByText()`
+## 4. `getByText()`
 
 Finds elements using visible text.
 
@@ -101,7 +101,7 @@ await page.getByText('Submit', {
 
 ---
 
-# 5. `getByLabel()`
+## 5. `getByLabel()`
 
 Used for form fields associated with labels.
 
@@ -125,7 +125,7 @@ await page.getByLabel('Username')
 
 ---
 
-# 6. `getByPlaceholder()`
+## 6. `getByPlaceholder()`
 
 Used for placeholder text.
 
@@ -140,7 +140,7 @@ await page.getByPlaceholder('Enter email')
 
 ---
 
-# 7. `getByAltText()`
+## 7. `getByAltText()`
 
 Used for images.
 
@@ -163,7 +163,7 @@ await page.getByAltText('Company Logo')
 
 ---
 
-# 8. `getByTitle()`
+## 8. `getByTitle()`
 
 Used for title attributes.
 
@@ -186,7 +186,7 @@ await page.getByTitle('Close')
 
 ---
 
-# 9. `getByTestId()`
+## 9. `getByTestId()`
 
 Best practice for automation testing.
 
@@ -211,7 +211,7 @@ await page.getByTestId('login-button')
 
 ---
 
-# 10. Basic CSS Locators
+## 10. Basic CSS Locators
 
 CSS locators directly target HTML elements.
 
@@ -254,7 +254,7 @@ await page.locator('[type="submit"]')
 
 ---
 
-# 11. Advanced CSS Locators
+## 11. Advanced CSS Locators
 
 ---
 
@@ -308,7 +308,7 @@ await page.locator('.item')
 
 ---
 
-# 12. Text with CSS Locator
+## 12. Text with CSS Locator
 
 ```ts
 await page.locator('button:has-text("Login")')
@@ -317,7 +317,7 @@ await page.locator('button:has-text("Login")')
 
 ---
 
-# 13. Chained Locators
+## 13. Chained Locators
 
 Useful for narrowing scope.
 
@@ -333,7 +333,7 @@ await page.locator('.login-form')
 
 ---
 
-# 14. Filter Locators
+## 14. Filter Locators
 
 ---
 
@@ -358,7 +358,7 @@ await page.locator('li')
 
 ---
 
-# 15. XPath Locator
+## 15. XPath Locator
 
 Playwright supports XPath.
 
@@ -383,7 +383,7 @@ await page.locator(
 
 ---
 
-# 16. Locator Assertions
+## 16. Locator Assertions
 
 ---
 
@@ -420,7 +420,7 @@ await expect(
 
 ---
 
-# 17. Best Practices
+## 17. Best Practices
 
 ---
 
@@ -476,7 +476,7 @@ page.getByRole('button', {
 
 ---
 
-# 18. Common Errors
+## 18. Common Errors
 
 ---
 
@@ -503,7 +503,7 @@ Fix:
 
 ---
 
-# 19. Running Tests
+## 19. Running Tests
 
 Run all tests:
 
@@ -531,7 +531,7 @@ npx playwright test --debug
 
 ---
 
-# 20. References
+## 20. References
 
 - Playwright Locators  
   https://playwright.dev/docs/locators
@@ -544,7 +544,7 @@ npx playwright test --debug
 
 ---
 
-# Summary
+## Summary
 
 This guide covered:
 

@@ -1,7 +1,7 @@
 ````md id="q7x4nv"
 # Playwright Bootstrap Dropdowns, Pagination, and Web Tables (TypeScript)
 
-# Table of Contents
+## Table of Contents
 
 1. Bootstrap Dropdowns
 2. Pagination
@@ -14,7 +14,7 @@
 
 ---
 
-# 1. Bootstrap Dropdowns
+## 1. Bootstrap Dropdowns
 
 ## Introduction
 
@@ -109,7 +109,7 @@ console.log(options);
 
 ---
 
-# 2. Pagination
+## 2. Pagination
 
 ## Introduction
 
@@ -122,7 +122,7 @@ Common pagination types:
 
 ---
 
-# 3. Basic Pagination Example
+## 3. Basic Pagination Example
 
 ---
 
@@ -150,7 +150,7 @@ await page.locator('text="3"')
 
 ---
 
-# 4. Loop Through Pagination
+## 4. Loop Through Pagination
 
 ---
 
@@ -185,7 +185,7 @@ test('iterate pagination', async ({ page }) => {
 
 ---
 
-# 5. Infinite Scroll Pagination
+## 5. Infinite Scroll Pagination
 
 ---
 
@@ -207,7 +207,7 @@ test('infinite scroll example', async ({ page }) => {
 
 ---
 
-# 6. Web Tables
+## 6. Web Tables
 
 ## Introduction
 
@@ -225,7 +225,7 @@ Playwright can:
 
 ---
 
-# 7. Static Web Table
+## 7. Static Web Table
 
 ---
 
@@ -287,7 +287,7 @@ console.log(columnCount);
 
 ---
 
-# 8. Read Specific Row Data
+## 8. Read Specific Row Data
 
 ---
 
@@ -303,7 +303,7 @@ console.log(await row.textContent());
 
 ---
 
-# 9. Read Specific Cell Data
+## 9. Read Specific Cell Data
 
 ---
 
@@ -321,7 +321,7 @@ console.log(await cell.textContent());
 
 ---
 
-# 10. Dynamic Web Tables
+## 10. Dynamic Web Tables
 
 Dynamic tables update automatically.
 
@@ -354,7 +354,7 @@ await page.locator('tr', {
 
 ---
 
-# 11. Validate Table Data
+## 11. Validate Table Data
 
 ---
 
@@ -383,7 +383,7 @@ await expect(
 
 ---
 
-# 12. Search Data in Table
+## 12. Search Data in Table
 
 ---
 
@@ -411,7 +411,7 @@ for (let i = 0; i < count; i++) {
 
 ---
 
-# 13. Handle Table Pagination
+## 13. Handle Table Pagination
 
 ---
 
@@ -438,7 +438,7 @@ while (true) {
 
 ---
 
-# 14. Utility Functions
+## 14. Utility Functions
 
 ---
 
@@ -475,7 +475,7 @@ export async function getTableRows(
 
 ---
 
-# 15. Best Practices
+## 15. Best Practices
 
 ---
 
@@ -524,7 +524,7 @@ await expect(nextButton)
 
 ---
 
-# 16. Common Errors
+## 16. Common Errors
 
 ---
 
@@ -561,7 +561,7 @@ Fix:
 
 ---
 
-# 17. Running Tests
+## 17. Running Tests
 
 Run all tests:
 
@@ -589,7 +589,7 @@ npx playwright test --debug
 
 ---
 
-# 18. References
+## 18. References
 
 - Playwright Locators  
   https://playwright.dev/docs/locators
@@ -602,7 +602,7 @@ npx playwright test --debug
 
 ---
 
-# Summary
+## Summary
 
 This guide covered:
 

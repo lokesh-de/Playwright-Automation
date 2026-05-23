@@ -25,7 +25,7 @@ Assertions automatically:
 
 ---
 
-# 2. Import Assertions
+## 2. Import Assertions
 
 ```ts
 import { test, expect } from '@playwright/test';
@@ -33,7 +33,7 @@ import { test, expect } from '@playwright/test';
 
 ---
 
-# 3. Basic Assertion Syntax
+## 3. Basic Assertion Syntax
 
 ```ts
 await expect(locator).toBeVisible();
@@ -41,7 +41,7 @@ await expect(locator).toBeVisible();
 
 ---
 
-# 4. Visibility Assertions
+## 4. Visibility Assertions
 
 ---
 
@@ -73,7 +73,7 @@ await expect(
 
 ---
 
-# 5. Text Assertions
+## 5. Text Assertions
 
 ---
 
@@ -113,7 +113,7 @@ await expect(
 
 ---
 
-# 6. Input Assertions
+## 6. Input Assertions
 
 ---
 
@@ -139,7 +139,7 @@ await expect(
 
 ---
 
-# 7. Attribute Assertions
+## 7. Attribute Assertions
 
 ---
 
@@ -166,7 +166,7 @@ await expect(
 
 ---
 
-# 8. Checkbox Assertions
+## 8. Checkbox Assertions
 
 ---
 
@@ -192,7 +192,7 @@ await expect(
 
 ---
 
-# 9. Enable/Disable Assertions
+## 9. Enable/Disable Assertions
 
 ---
 
@@ -216,7 +216,7 @@ await expect(
 
 ---
 
-# 10. Editable Assertions
+## 10. Editable Assertions
 
 ---
 
@@ -240,7 +240,7 @@ await expect(
 
 ---
 
-# 11. Element Count Assertions
+## 11. Element Count Assertions
 
 ---
 
@@ -256,7 +256,7 @@ await expect(
 
 ---
 
-# 12. CSS Assertions
+## 12. CSS Assertions
 
 ---
 
@@ -275,7 +275,7 @@ await expect(
 
 ---
 
-# 13. Class Assertions
+## 13. Class Assertions
 
 ---
 
@@ -299,7 +299,7 @@ await expect(
 
 ---
 
-# 14. URL Assertions
+## 14. URL Assertions
 
 ---
 
@@ -323,7 +323,7 @@ await expect(page)
 
 ---
 
-# 15. Title Assertions
+## 15. Title Assertions
 
 ---
 
@@ -347,7 +347,7 @@ await expect(page)
 
 ---
 
-# 16. Negative Assertions
+## 16. Negative Assertions
 
 Use `not`.
 
@@ -372,7 +372,7 @@ await expect(page)
 
 ---
 
-# 17. Soft Assertions
+## 17. Soft Assertions
 
 Soft assertions continue test execution even if assertion fails.
 
@@ -388,7 +388,7 @@ await expect.soft(
 
 ---
 
-# 18. Generic Value Assertions
+## 18. Generic Value Assertions
 
 Used for:
 - numbers
@@ -427,7 +427,7 @@ expect([1, 2, 3])
 
 ---
 
-# 19. API Response Assertions
+## 19. API Response Assertions
 
 Useful in API testing.
 
@@ -445,7 +445,7 @@ expect(response.status()).toBe(200);
 
 ---
 
-# 20. Assertions with Auto Waiting
+## 20. Assertions with Auto Waiting
 
 Playwright automatically waits until:
 - assertion passes
@@ -465,7 +465,7 @@ No manual wait needed.
 
 ---
 
-# 21. Custom Timeout for Assertions
+## 21. Custom Timeout for Assertions
 
 ---
 
@@ -481,7 +481,7 @@ await expect(
 
 ---
 
-# 22. Reusable Assertion Utility
+## 22. Reusable Assertion Utility
 
 ---
 
@@ -510,7 +510,7 @@ await verifyText(
 
 ---
 
-# 23. Best Practices
+## 23. Best Practices
 
 ---
 
@@ -560,7 +560,7 @@ Avoid vague assertions.
 
 ---
 
-# 24. Common Errors
+## 24. Common Errors
 
 ---
 
@@ -591,7 +591,7 @@ locator.nth(0);
 
 ---
 
-# 25. Running Tests
+## 25. Running Tests
 
 Run all tests:
 
@@ -619,7 +619,7 @@ npx playwright test --debug
 
 ---
 
-# 26. References
+## 26. References
 
 - Playwright Assertions  
   https://playwright.dev/docs/test-assertions
@@ -632,7 +632,7 @@ npx playwright test --debug
 
 ---
 
-# Summary
+## Summary
 
 This guide covered:
 

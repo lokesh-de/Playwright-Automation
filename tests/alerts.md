@@ -370,7 +370,7 @@ npx playwright test --debug
 
 ---
 
-# Summary
+## Summary
 
 This guide covered:
 

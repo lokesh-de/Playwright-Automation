@@ -25,7 +25,7 @@ Playwright automatically:
 
 ---
 
-# 2. Click Action
+## 2. Click Action
 
 ---
 
@@ -76,7 +76,7 @@ await page.locator('#canvas')
 
 ---
 
-# 3. Fill and Type Actions
+## 3. Fill and Type Actions
 
 ---
 
@@ -111,7 +111,7 @@ await page.locator('#search')
 
 ---
 
-# 4. Keyboard Actions
+## 4. Keyboard Actions
 
 ---
 
@@ -152,7 +152,7 @@ await page.keyboard.up('Shift');
 
 ---
 
-# 5. Hover Action
+## 5. Hover Action
 
 Moves mouse over element.
 
@@ -181,7 +181,7 @@ test('hover example', async ({ page }) => {
 
 ---
 
-# 6. Drag and Drop
+## 6. Drag and Drop
 
 ---
 
@@ -213,7 +213,7 @@ test('drag and drop example', async ({ page }) => {
 
 ---
 
-# 7. File Upload
+## 7. File Upload
 
 ---
 
@@ -247,7 +247,7 @@ await page.locator('#file-upload')
 
 ---
 
-# 8. Select Dropdown Action
+## 8. Select Dropdown Action
 
 ---
 
@@ -283,7 +283,7 @@ await page.locator('#skills')
 
 ---
 
-# 9. Checkbox and Radio Button Actions
+## 9. Checkbox and Radio Button Actions
 
 ---
 
@@ -314,7 +314,7 @@ await page.locator('#male')
 
 ---
 
-# 10. Mouse Actions
+## 10. Mouse Actions
 
 ---
 
@@ -350,7 +350,7 @@ await page.mouse.wheel(0, 500);
 
 ---
 
-# 11. Scroll Actions
+## 11. Scroll Actions
 
 ---
 
@@ -371,7 +371,7 @@ await page.mouse.wheel(0, 1000);
 
 ---
 
-# 12. Focus and Blur Actions
+## 12. Focus and Blur Actions
 
 ---
 
@@ -393,7 +393,7 @@ await page.locator('#username')
 
 ---
 
-# 13. Screenshot Action
+## 13. Screenshot Action
 
 ---
 
@@ -419,7 +419,7 @@ await page.locator('.card')
 
 ---
 
-# 14. Wait Actions
+## 14. Wait Actions
 
 ---
 
@@ -447,7 +447,7 @@ await page.waitForLoadState('networkidle');
 
 ---
 
-# 15. Frame Actions
+## 15. Frame Actions
 
 ---
 
@@ -462,7 +462,7 @@ await frame.locator('#username')
 
 ---
 
-# 16. Dialog Actions
+## 16. Dialog Actions
 
 ---
 
@@ -479,7 +479,7 @@ await page.locator('#alert-button')
 
 ---
 
-# 17. Reusable Utility Functions
+## 17. Reusable Utility Functions
 
 ---
 
@@ -512,7 +512,7 @@ export async function fillInput(
 
 ---
 
-# 18. Best Practices
+## 18. Best Practices
 
 ---
 
@@ -566,7 +566,7 @@ div:nth-child(3) button
 
 ---
 
-# 19. Common Errors
+## 19. Common Errors
 
 ---
 
@@ -601,7 +601,7 @@ Fix:
 
 ---
 
-# 20. Running Tests
+## 20. Running Tests
 
 Run all tests:
 
@@ -629,7 +629,7 @@ npx playwright test --debug
 
 ---
 
-# 21. References
+## 21. References
 
 - Playwright Actions  
   https://playwright.dev/docs/input
@@ -645,7 +645,7 @@ npx playwright test --debug
 
 ---
 
-# Summary
+## Summary
 
 This guide covered:
 
