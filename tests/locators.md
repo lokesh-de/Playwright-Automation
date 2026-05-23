@@ -1,4 +1,3 @@
-````md id="m2k9df"
 # Playwright Built-in Locators and CSS Locators (TypeScript)
 
 ## 1. Introduction

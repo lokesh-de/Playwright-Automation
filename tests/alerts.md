@@ -1,4 +1,3 @@
-````md id="s0kq9v"
 # Playwright Alerts and Dialogs Examples (TypeScript)
 
 ## 1. Introduction

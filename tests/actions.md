@@ -1,4 +1,3 @@
-````md id="a4k8pz"
 # Playwright Actions Examples (TypeScript)
 
 ## 1. Introduction

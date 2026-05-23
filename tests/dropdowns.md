@@ -1,4 +1,3 @@
-````md id="n7k4px"
 # Playwright Dropdown Examples (TypeScript)
 
 ## 1. Introduction

@@ -1,4 +1,3 @@
-````md id="q7x4nv"
 # Playwright Bootstrap Dropdowns, Pagination, and Web Tables (TypeScript)
 
 ## Table of Contents
