@@ -1,4 +1,3 @@
-````md id="j8w2ms"
 # Playwright Assertions Examples (TypeScript)
 
 ## 1. Introduction
